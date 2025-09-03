@@ -58,6 +58,15 @@ const Footer = () => {
                 GitHub
                 <ExternalLink className="w-3 h-3" />
               </a>
+              <a 
+                  href="https://medium.com/@s_colson"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm text-primary-foreground/80 hover:text-white transition-colors"
+                >
+                  Articles Medium
+                  <ExternalLink className="w-3 h-3" />
+                </a>
             </div>
           </div>
 

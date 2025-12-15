@@ -69,7 +69,7 @@ const Navigation = () => {
           {/* Desktop Actions */}
           <div className="hidden md:flex items-center gap-4">
             <Badge className="bg-green-500/20 text-green-700 border-green-500/30">
-              ✅ Disponible
+              ✅ A l'écoute
             </Badge>
             <Button 
               onClick={() => scrollToSection('#contact')}
@@ -111,7 +111,7 @@ const Navigation = () => {
               ))}
               <div className="flex flex-col gap-3 pt-4 border-t border-border">
                 <Badge className="bg-green-500/20 text-green-700 border-green-500/30 w-fit">
-                  ✅ Disponible
+                  ✅ A l'écoute
                 </Badge>
                 <Button 
                   onClick={() => scrollToSection('#contact')}

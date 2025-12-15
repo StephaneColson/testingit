@@ -3,6 +3,19 @@ import { Badge } from "@/components/ui/badge";
 import { Calendar, MapPin, ExternalLink } from "lucide-react";
 
 const experiences = [
+    {
+    company: "April",
+    role: "Automatisation tests API avec Playwright",
+    period: "2025",
+    location: "Lyon, France", 
+    type: "Mission Freelance",
+    description: "Automatisation des test d'API Store",
+    achievements: [
+      "Tests des API et scénarios end-to-end avec Playwright",
+      "Intégration CI/CD avec Gitlab",
+      "Temps de tests et confiance améliorée"
+    ]
+  },
   {
     company: "Pass Culture",
     role: "QA Automation Expert",

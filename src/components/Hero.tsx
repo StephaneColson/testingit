@@ -23,14 +23,14 @@ const Hero = () => {
               Stéphane Colson
             </h1>
             <p className="text-xl lg:text-2xl text-white/90 font-medium">
-              QA | Automatisation | Cypress 🤖 | Playwright 🤖
+              QA | Automatisation | Playwright 🤖 | Cypress 🤖
             </p>
           </div>
           
           <p className="text-lg text-white/80 leading-relaxed max-w-xl">
             Plus de 20 ans d'expérience en tant que testeur logiciel. 
-            Je vous aide à mettre en place des stratégies de test efficaces 
-            et à automatiser efficacement.
+            Je vous aide à mettre en place des stratégies de test et à 
+            automatiser efficacement.
           </p>
           
           <div className="flex items-center gap-8 pt-8 border-t border-white/20">
@@ -72,7 +72,7 @@ const Hero = () => {
                 <p className="text-sm text-muted-foreground">QA Expert</p>
                 <div className="flex items-center gap-1 mt-1">
                   <div className="w-2 h-2 bg-green-500 rounded-full"></div>
-                  <span className="text-xs text-muted-foreground">Disponible</span>
+                  <span className="text-xs text-muted-foreground">A l'écoute</span>
                 </div>
               </div>
             </div>

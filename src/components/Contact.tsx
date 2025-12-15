@@ -130,7 +130,7 @@ const Contact = () => {
                   <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg border border-green-200">
                     <span className="text-sm font-medium">Statut actuel</span>
                     <Badge className="bg-green-500 text-white">
-                      ✅ Disponible
+                      ✅ A l'écoute
                     </Badge>
                   </div>
                   <div className="flex items-center justify-between p-3 bg-primary/5 rounded-lg">
@@ -140,9 +140,9 @@ const Contact = () => {
                     </Badge>
                   </div>
                   <div className="flex items-center justify-between p-3 bg-primary/5 rounded-lg">
-                    <span className="text-sm font-medium">Tarif moyen</span>
+                    <span className="text-sm font-medium">Tarif indicatif</span>
                     <Badge variant="outline">
-                      💰 600€/jour
+                      💰 650€/jour
                     </Badge>
                   </div>
                 </div>

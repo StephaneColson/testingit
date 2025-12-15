@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <p className="text-primary-foreground/80 text-sm leading-relaxed">
               Plus de 20 ans d'expérience en QA, développement et 
-              automatisation de tests avec Cypress, Playwright, etc...
+              automatisation de tests avec Playwright, Cypress, etc...
             </p>
           </div>
 
@@ -83,7 +83,7 @@ const Footer = () => {
                 stephane-testingit@pm.me
               </div>
               <Badge className="bg-green-500/20 text-green-300 border-green-500/30">
-                ✅ Disponible pour missions
+                ✅ Disponible pour écouter vos besoins
               </Badge>
             </div>
           </div>

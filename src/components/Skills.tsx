@@ -9,7 +9,7 @@ const skillCategories = [
     title: "Outils d'automatisation",
     skills: [
       { name: "Cypress", level: 95, color: "bg-green-500" },
-      { name: "Playwright", level: 85, color: "bg-blue-500" },
+      { name: "Playwright", level: 95, color: "bg-blue-500" },
       { name: "Postman/Newman", level: 85, color: "bg-orange-500" }
     ]
   },
@@ -17,7 +17,7 @@ const skillCategories = [
     title: "Technologies Web",
     skills: [
       { name: "JavaScript", level: 90, color: "bg-yellow-500" },
-      { name: "TypeScript", level: 85, color: "bg-blue-600" },
+      { name: "TypeScript", level: 90, color: "bg-blue-600" },
       { name: "Node.js", level: 80, color: "bg-green-600" }
     ]
   },
@@ -26,7 +26,7 @@ const skillCategories = [
     skills: [
       { name: "Quality Assurance", level: 98, color: "bg-primary" },
       { name: "Test Strategy", level: 98, color: "bg-primary" },
-      { name: "CI/CD", level: 85, color: "bg-red-500" },
+      { name: "CI/CD", level: 90, color: "bg-red-500" },
     ]
   }
 ];
@@ -116,10 +116,10 @@ const Skills = () => {
               📍 Lyon, Paris, Europe, Monde en remote...
             </Badge>
             <Badge className="bg-primary/20 text-primary border-primary/30 p-2">
-              💰 600€/jour
+              💰 650€/jour
             </Badge>
             <Badge className="bg-green-500/20 text-green-700 border-green-500/30 p-2">
-              ✅ Disponible
+              ✅ A l'écoute
             </Badge>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

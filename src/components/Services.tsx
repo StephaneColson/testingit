@@ -23,7 +23,7 @@ const services = [
   {
     icon: Cog,
     title: "Automatisation",
-    description: "Développement de tests automatisés avec Cypress, Playwright et autres outils modernes",
+    description: "Développement de tests automatisés avec Playwright, Cypress et autres outils modernes",
     features: ["Tests end-to-end", "Tests d'API", "CI/CD intégration"],
     color: "text-purple-500"
   },

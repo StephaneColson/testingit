@@ -5,6 +5,7 @@ import { Calendar, MapPin, ExternalLink } from "lucide-react";
 const experiences = [
   {
     company: "Naboo",
+    website: "https://www.naboo.app/",
     role: "Lead QA, Automatisation Playwright, IA",
     period: "2026",
     location: "Remote, France",
@@ -17,6 +18,7 @@ const experiences = [
   },
   {
     company: "April",
+    website: "https://www.april.fr",
     role: "Automatisation tests API avec Playwright",
     period: "2025",
     location: "Lyon, France",
@@ -29,6 +31,7 @@ const experiences = [
   },
   {
     company: "Pass Culture",
+    website: "https://pass.culture.fr",
     role: "QA Automation Expert",
     period: "2023 - 2024",
     location: "Remote, France",
@@ -41,6 +44,7 @@ const experiences = [
   },
   {
     company: "April",
+    website: "https://www.april.fr",
     role: "Automaticien QA",
     period: "2022 - 2023",
     location: "Lyon, France",
@@ -53,6 +57,7 @@ const experiences = [
   },
   {
     company: "Talend",
+    website: "https://www.talend.com",
     role: "QA Engineer",
     period: "2021 - 2022",
     location: "Remote, France",
@@ -65,6 +70,7 @@ const experiences = [
   },
   {
     company: "Soufflet",
+    website: "https://www.soufflet.com",
     role: "E-Commerce and API Tester",
     period: "2018 - 2021",
     location: "Remote,France",
@@ -77,6 +83,7 @@ const experiences = [
   },
   {
     company: "Malt",
+    website: "https://www.malt.fr",
     role: "QA Specialist",
     period: "2019",
     location: "Lyon, France",
@@ -112,18 +119,20 @@ const Experience = () => {
                 <div className="flex flex-col lg:flex-row lg:items-start gap-6">
                   <div className="flex-1">
                     <div className="flex flex-col sm:flex-row sm:items-center gap-2 mb-4">
-                      <h3 className="text-xl font-semibold text-primary">
+                      <a
+                        href={exp.website}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-xl font-semibold text-primary hover:underline"
+                      >
                         {exp.company}
-                      </h3>
+                      </a>
                       <Badge variant="outline" className="text-xs w-fit">
                         {exp.type}
                       </Badge>
                     </div>
 
                     <h4 className="text-lg font-medium mb-3">{exp.role}</h4>
-                    <p className="text-muted-foreground mb-4">
-                      {exp.description}
-                    </p>
 
                     <ul className="space-y-2 mb-4">
                       {exp.achievements.map((achievement, idx) => (

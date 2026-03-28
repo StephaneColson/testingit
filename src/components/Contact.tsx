@@ -139,12 +139,6 @@ const Contact = () => {
                       ⚡ 4h en moyenne
                     </Badge>
                   </div>
-                  <div className="flex items-center justify-between p-3 bg-primary/5 rounded-lg">
-                    <span className="text-sm font-medium">Tarif indicatif</span>
-                    <Badge variant="outline">
-                      💰 650€/jour
-                    </Badge>
-                  </div>
                 </div>
               </CardContent>
             </Card>

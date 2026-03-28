@@ -115,9 +115,6 @@ const Skills = () => {
             <Badge className="bg-primary/20 text-primary border-primary/30 p-2">
               📍 Lyon, Paris, Europe, Monde en remote...
             </Badge>
-            <Badge className="bg-primary/20 text-primary border-primary/30 p-2">
-              💰 650€/jour
-            </Badge>
             <Badge className="bg-green-500/20 text-green-700 border-green-500/30 p-2">
               ✅ A l'écoute
             </Badge>
